@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="image/3d logo 5.png">
+                    <h2 id="sec">BAO <span class="col">IAM</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">library_books</span>
+                    <h3>Courses Enrolled</h3>
+
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>Statistics</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">assistant_photo</span>
+                    <h3>My Activity</h3>
+                    <span class="message-enrolled">2</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">person</span>
+                    <h3>Ask To Expert</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">card_membership</span>
+                    <h3>Certificates</h3>
+                </a>
+                <a href="../refer/refer_earn.html" target="_blank">
+                    <span class="material-icons-sharp">group_add</span>
+                    <h3>Refer to Friend</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+
+        <!---------------------------------------------- main---------------------------------------------------- -->
+
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">
+                        import_contacts
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Courses Enrolled</h3>
+                            <h1>7</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">
+                        Last 4 months...
+                    </small>
+                </div>
+
+                <!-- -----------------------end of sales---------------- -->
+                <div class="expenses">
+                    <span class="material-icons-sharp">
+                        credit_score
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Course Completed</h3>
+                            <h1>4</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>40%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">
+                        Last 4 months...
+                    </small>
+                </div>
+                <!-- -----------------------end of expenses---------------- -->
+                <div class="income">
+                    <span class="material-icons-sharp">
+                        stacked_line_chart
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Hours Spent</h3>
+                            <h1>168</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>51%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">
+                        Last 4 months...
+                    </small>
+                </div>
+                <!-- -----------------------end of income---------------- -->
+            </div>
+            <!-- ----------------------------------------insights end-------------------------- -->
+            <div class="recent-order">
+                <h2>Latest Tutorials</h2>
+                <i><span class="material-icons-sharp" id="sorting">
+                        sort
+                    </span></i>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tutorial Name</th>
+                            <th>Subject</th>
+                            <th>Assignment Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>a</td>
+                            <td>P</td>
+                            <td class="new">Submitted</td>
+                            <td class="primary curser">Details</td>
+                        </tr>
+                        <tr>
+                            <td>b</td>
+                            <td>Q</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary curser">Details</td>
+                        </tr>
+                        <tr>
+                            <td>c</td>
+                            <td>R</td>
+                            <td class="new">Submitted</td>
+                            <td class="primary curser">Details</td>
+                        </tr>
+                        <tr>
+                            <td>d</td>
+                            <td>S</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary curser">Details</td>
+                        </tr>
+                        <tr>
+                            <td>e</td>
+                            <td>T</td>
+                            <td class="new">Submitted</td>
+                            <td class="primary curser">Details</td>
+                        </tr>
+                        <tr>
+                            <td>f</td>
+                            <td>U</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary curser">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">
+                    <h2>Show All</h2>
+                </a>
+            </div>
+        </main>
+        <!-- -----------------------main end------------------- -->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="coin curser">
+                    <span class="material-icons-sharp">
+                        paid
+                    </span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Welcome,<b>
+                                <h2>Mohit</h2>
+                            </b></p>
+
+                    </div>
+                    <div class="profile-photo curser">
+                        <img src="./image/pexels-mentatdgt-937481.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!---------------------- top end------------------- -->
+            <div class="analysis">
+                <h2>Progress Meter</h2>
+                <img src="./image/progress meter.jpg" alt="">
+            </div>
+            <!------------------ analysis end --------------->
+            <div class="courses">
+                <h2>Your Courses</h2>
+                <div class="item">
+                    <h3 class="curser">course 1</h3>
+                </div>
+                <div class="item">
+                    <h3 class="curser">course 1</h3>
+                </div>
+                <div class="item">
+                    <h3 class="curser">course 1</h3>
+                </div>
+                <div class="item">
+                    <h3 class="curser">course 1</h3>
+                </div>
+                <div class="add-course">
+                    <div>
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h4>Add Courses</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- ----course end----- -->
+            <div class="help">
+                <span class="material-icons-sharp">
+                    support_agent
+                    </span>
+            </div>
+
+        </div>
+    </div>
+    
+    
+</body>
+
+</html>
